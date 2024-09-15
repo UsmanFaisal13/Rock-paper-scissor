@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #e3e3e3;
+  font-family: Poppins,Sans-Serif;
+  
+}
+main{
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+#interface{
+  margin-top: 8rem;
+  border-radius: 10px;
+    height: 50vh;
+    width: 50vh;
+    display: flex;
+    padding-top: 2rem;
+    align-items: center;
+    background-color: #ffffff;
+    
+    flex-direction: column;
+}
+#result{
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+    
+  
+}
+#gameplay{
+  display: flex;
+  gap: 1rem;
+}
+#player{
+    background-color: #323232;
+    border-radius: 20px;
+    height:20vh ;
+    width: 20vh;
+    
+}
+#Com{
+   background-color: #323232;
+    border-radius: 20px;
+    height:20vh ;
+    width: 20vh
+}
+#choice{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+#Rock,#Paper,#Scissor{
+    background-color: #e3e3e3;
+    font-size: 2em;
+    height: 2em;
+    width: 2em;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Rock:hover, #Paper:hover, #Scissor:hover{
+    background-color: #119eff;
+  
+
+}
