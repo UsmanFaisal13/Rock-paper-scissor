@@ -20,6 +20,17 @@ main{
   
   
 }
+.name{
+  display: flex;
+  justify-content: center;
+}
+.name h1{
+  position: relative;
+  top: 2em;
+
+  font-family: Bebas Neue,Sans-Serif;
+  font-size: 3em;
+}
 #interface{
   margin-top: 8rem;
   border-radius: 10px;
@@ -30,7 +41,7 @@ main{
     align-items: center;
     background-color: #ffffff;
     justify-content: center;
-    margin-left: 0.4rem;
+  
     
     flex-direction: column;
 }
@@ -91,3 +102,4 @@ main{
   
 
 }
+
