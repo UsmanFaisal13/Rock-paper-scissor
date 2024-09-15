@@ -29,25 +29,25 @@ function getComputerChoice(){
 };
 function playRound(playerSelection, computerSelection) {
     if(playerSelection == computerSelection){
-        result.innerHTML = "<h1>It's a Tie</h1>";
+        result.innerHTML = "<h3>It's a Tie</h3>";
     }
     else if(computerSelection == "paper" && playerSelection == "rock"){
-        result.innerHTML = "<h1>You lose</h1>";
+        result.innerHTML = "<h3>You lose</h3>";
     }
     else if(computerSelection == "scissor" && playerSelection == "rock"){
-        result.innerHTML = "<h1>You win</h1>";
+        result.innerHTML = "<h3>You win</h3>";
     }
     else if(computerSelection == "paper" && playerSelection == "scissor"){
-        result.innerHTML = "<h1>You win</h1>";
+        result.innerHTML = "<h3>You win</h3>";
     }
     else if(computerSelection == "rock" && playerSelection == "scissor"){
-        result.innerHTML = "<h1>You lose</h1>";
+        result.innerHTML = "<h3>You lose</h3>";
     }
     else if(computerSelection == "rock" && playerSelection == "paper"){
-        result.innerHTML = "<h1>You win</h1>";
+        result.innerHTML = "<h3>You win</h3>";
     }
     else if(computerSelection == "scissor" && playerSelection == "paper"){
-        result.innerHTML = "<h1>You lose</h1>";
+        result.innerHTML = "<h3>You lose</h3>";
     };   
   };
   Paper.addEventListener('click', () => {
